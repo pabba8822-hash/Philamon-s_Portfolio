@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Your Name | Personal Portfolio</title>
+  <link rel="stylesheet" href="Portfolio.css" />
+</head>
+<body>
+  <!-- Header & Navigation Bar -->
+  <header class="site-header">
+    <div class="container nav-wrapper">
+      <a href="#home" class="logo">Philemon Abba</a>
+      <nav aria-label="Primary Navigation">
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero / Home Section -->
+    <section id="home" class="hero-section">
+      <div class="container hero-content">
+        <div class="hero-text">
+          <p class="eyebrow">Welcome to My Portfolio</p>
+          <h1>Philemon Abba</h1>
+          <p class="hero-intro">
+            First-year engineering student passionate about building clean, accessible,
+            and responsive web interfaces using modern HTML5 and CSS3.
+          </p>
+          <a href="#contact" class="btn btn-primary">Contact Me</a>
+        </div>
+        <div class="hero-media">
+          <img
+            src="https://res.cloudinary.com/ubykozaf/image/upload/v1795599022/DSC00139-1mb_1.jpg"
+            alt="Profile portrait of Your Name"
+            class="profile-img"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about" class="section about-section">
+      <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-grid">
+          <div class="about-text">
+            <p>
+              Hi! I am <strong>Philemon Abba </strong>, a first-year engineering student
+              exploring software development, problem-solving, and front-end web design.
+            </p>
+            <p>
+              <strong>Education:</strong> First-Year B.Tech Engineering Student
+              (Class of 2030), building strong fundamentals in programming logic,
+              computer science concepts, and structured web layout design.
+            </p>
+            <p>
+              <strong>Interests &amp; Career Goals:</strong> I enjoy turning ideas into
+              usable digital products, practicing algorithmic thinking, and designing
+              responsive interfaces. My goal is to grow into a well-rounded software
+              engineer who builds reliable and user-focused applications.
+            </p>
+          </div>
+          <div class="about-visual">
+            <img
+              src="https://res.cloudinary.com/ubykozaf/image/upload/v1795599087/Best-Laptop-for-engineering-Students-2-1024x576.webp"
+              alt="Engineering student desk setup with laptop and notes"
+              class="about-img"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section skills-section">
+      <div class="container">
+        <h2 class="section-title">Skills</h2>
+        <div class="skills-grid">
+          <article class="skill-card">
+            <span class="skill-icon" aria-hidden="true">&lt;/&gt;</span>
+            <h3>HTML5</h3>
+            <p>Semantic markup, forms, and native validation.</p>
+          </article>
+
+          <article class="skill-card">
+            <span class="skill-icon" aria-hidden="true">Py</span>
+            <h3>Python</h3>
+            <p>Core syntax, control flow, and scripting.</p>
+          </article>
+
+          <article class="skill-card">
+            <span class="skill-icon" aria-hidden="true">Team</span>
+            <h3>Communication</h3>
+            <p>Clear documentation, teamwork, and presentation.</p>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact-section">
+      <div class="container">
+        <h2 class="section-title">Contact</h2>
+        <div class="contact-layout">
+          <aside class="contact-info">
+            <h3>Get in Touch</h3>
+            <p>Have a question, project idea, or feedback? Send a message using the form.</p>
+            <ul class="contact-details">
+              <li><strong>Email:</strong> pabba8822@gmail.com</li>
+              <li><strong>Location:</strong> Pune, Maharashtra, India</li>
+            </ul>
+          </aside>
+
+          <form class="contact-form" action="#" method="post">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="full-name">Full Name</label>
+                <input
+                  type="text"
+                  id="full-name"
+                  name="full_name"
+                  placeholder="Enter your full name"
+                  required
+                />
+              </div>
+
+              <div class="form-group">
+                <label for="email">Email Address</label>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="you@example.com"
+                  required
+                />
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="subject">Subject</label>
+              <input
+                type="text"
+                id="subject"
+                name="subject"
+                placeholder="What is this regarding?"
+                required
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea
+                id="message"
+                name="message"
+                rows="4"
+                placeholder="Write your message here..."
+                required
+              ></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-full">Submit</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <p class="footer-copy">&copy; 2026 Philemon Abba. All rights reserved.</p>
+      <ul class="social-links" aria-label="Social Media Links">
+        <li><a href="https://github.com" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+        <li><a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+        <li><a href="mailto:your.email@example.com">Email</a></li>
+      </ul>
+    </div>
+  </footer>
+</body>
+</html>
